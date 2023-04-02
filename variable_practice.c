@@ -2,7 +2,9 @@
 
 int main(){
     int nabil = 10;
-    printf("nabil hasan");
+    float naiem = 2.345;
+    char ibrahim = 'r';
+    printf("%d %.3f %c",nabil,naiem,ibrahim);
     return 0;
 
 }
