@@ -2,7 +2,7 @@
 
 int main(){
     int nabil = 10;
-    printf("nabil");
+    printf("nabil hasan");
     return 0;
 
 }
