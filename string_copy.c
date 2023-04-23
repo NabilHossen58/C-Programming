@@ -7,13 +7,12 @@ int main()
     char b[10];
 
     scanf("%s %s",a,b);
+    // strcpy(a,b); //Using built-in function.
 
-    int j = 0;
-    for (int i = strlen(a); i <= strlen(b)+ strlen(a); i++)
+    for (int i = 0; i <= strlen(b); i++)
     {
-        a[i] = b[j];
-        j++;
+        a[i] = b[i];
     }
-    printf("%s",a);
+    printf("%s %s",a,b);
     return 0;
 }
